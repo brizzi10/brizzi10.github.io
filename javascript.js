@@ -1,4 +1,4 @@
-
+// you might want to create a CSS class and add/remove classes with javascript to show/hide content to create a toggling effect
 function swapAbout(){
   document.getElementById("aboutID").style.zIndex="1";
   document.getElementById("project1ID").style.zIndex="0";
