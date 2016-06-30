@@ -1,3 +1,5 @@
+/* For the overflow issue on smaller screens, in Chrome, right click with the mouse and select the inspector. Then change the size of the browser window and you can find what pixel width to target for your media query */
+
 .row, .column {
   box-sizing: border-box;
 }
@@ -63,6 +65,7 @@ p {
   text align: center;
   background-color: black;
 }
+/* to hide the overflow issue, you should set a z-index for the rest of the page to 1, and then change the project z-index to 2. */
 .project1{
   z-index: 0;
   height: 100%;
