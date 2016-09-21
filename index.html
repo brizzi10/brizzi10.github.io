@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="vanphan">
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="public/js/dependencies/angular.js"></script>
+	<script type="text/javascript" src="public/js/dependencies/jquery-3.1.0.min.js"></script>
+	<script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="public/js/directives.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+	<title>Van Phan</title>
+</head>
+<body>
+<navbar></navbar>
+  <div class="parallax">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+      	<img class="background title" src="public/bg.jpg">
+      </div>
+    </div>
+    <div id="group2" class="parallax__group">
+      <div id="home" class="parallax__layer parallax__layer--base">
+      	<home></home>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+      	<home-content></home-content>
+      </div>
+    </div>
+    <div id="group3" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+      	<portfolio-content></portfolio-content>
+      </div>
+      <div id="portfolio" class="parallax__layer parallax__layer--base">
+      	<portfolio></portfolio>
+      </div>
+    </div>
+    <div id="group4" class="parallax__group">
+      <div id="kemoti" class="parallax__layer parallax__layer--base project pleft">
+      	<a href="http://vansphan.github.io/kemoti/" target="_blank"><img src="public/kemoti.gif"></a>
+      </div>
+      <div class="parallax__layer parallax__layer--deep project pright">
+      	<project1></project1>
+      </div>
+    </div>
+    <div id="group5" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore pleft" style="width: 45%;">
+      	<project2></project2>
+      </div>
+      <div id="best-na" class="parallax__layer parallax__layer--base pright project2">
+			  <a href="https://best-na-leagues.herokuapp.com/" target="_blank"><img class="gif" src="public/best-na.gif"></a>
+      </div>
+    </div>
+    <div id="group6" class="parallax__group">
+      <div class="parallax__layer parallax__layer--back project pright project2">
+        <project3></project3>
+      </div>
+      <div id="epic" class="parallax__layer parallax__layer--base project pleft">
+        <a href="https://secret-sands-58293.herokuapp.com/" target="_blank"><img src="public/epic.gif" style="width: 180%;"></a>
+      </div>
+    </div>
+    <div id="group7" class="parallax__group">
+      <div id="contact" class="parallax__layer parallax__layer--base">
+        <contact></contact>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
