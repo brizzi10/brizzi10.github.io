@@ -1,5 +1,5 @@
 (function() {
-  angular.module('vanphan')
+  angular.module('benbrizzi')
   .directive('home', function() {
     return {
       restrict: 'E',
