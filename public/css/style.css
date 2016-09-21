@@ -107,14 +107,14 @@ body {
 	z-index: 5; /* slide over group 2 */
 }
 #group1 .parallax__layer--base {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 #group2 {
 	z-index: 3; /* slide under groups 1 and 3 */
 }
 #group2 .parallax__layer--back {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 #group3 {
@@ -125,7 +125,7 @@ body {
 	height: 50px;
 }
 #group3 .parallax__layer--base {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 #group4 {
@@ -133,28 +133,28 @@ body {
 	display: flex;
 }
 #group4 .parallax__layer--deep {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 #group5 {
 	z-index: 3; /* slide over group 4 and 6 */
 }
 #group5 .parallax__layer--base {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 #group6 {
 	z-index: 2; /* slide under group 5 and 7 */
 }
 #group6 .parallax__layer--back {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 #group7 {
 	z-index: 3; /* slide over group 7 */
 }
 #group7 .parallax__layer--base {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 }
 
 .left {
