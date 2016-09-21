@@ -11,7 +11,10 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+.name{
+	margin-top: 100px;
+	text-align: center;
+}
 .parallax {
 	height: 500px;
 	height: 100vh;
