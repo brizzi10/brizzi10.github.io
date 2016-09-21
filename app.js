@@ -2,6 +2,5 @@
 
 (function() {
   angular
-  .module("vanphan", [])
-  console.log("hi")
+  .module("benbrizzi", [])
 }());
