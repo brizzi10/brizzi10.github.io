@@ -78,16 +78,16 @@ body {
 }
 
 .background {
-	height: 40%;
-	width: 40%;
+	height: 50%;
+	width: 50%;
 	padding:1px;
   border:3px solid rgb(255, 255, 255);
 	border-radius: 25px;
 }
 
 .headshot{
-	height: 50%;
-	width: 50%;
+	height: 30%;
+	width: 30%;
 	border: 1px solid rgb(0, 0, 0);
 	border-radius: 75px;
 	margin: 120px 100px 60px 0;
