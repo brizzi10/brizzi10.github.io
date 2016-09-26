@@ -86,8 +86,8 @@ body {
 }
 
 .headshot{
-	height: 60%;
-	width: 60%;
+	height: 30%;
+	width: 30%;
 	border: 1px solid rgb(255, 255, 255);
 	border-radius: 75px;
 	margin: 120px 100px 60px 0;
