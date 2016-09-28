@@ -218,6 +218,7 @@ navbar {
 	width: 100%;
 	z-index: 5;
 	position: fixed;
+	color: #1b9ec1;
 }
 
 navbar img {
