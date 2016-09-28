@@ -221,6 +221,10 @@ navbar {
 	color: #1b9ec1;
 }
 
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+
 navbar img {
 	width: 38px;
 	height: 38px;
