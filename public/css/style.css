@@ -216,10 +216,8 @@ navbar {
 	z-index: 5;
 	position: fixed;
 }
-.navbar-custom{
+.navbar-light .navbar-nav .nav-link {
     color: #1b9ec1;
-		background-color: #1b9ec1; 
-}
 
 
 navbar img {
