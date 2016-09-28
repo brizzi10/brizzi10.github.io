@@ -216,7 +216,7 @@ navbar {
 	z-index: 5;
 	position: fixed;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav {
     color: #1b9ec1;
 	}
 
