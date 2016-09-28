@@ -216,7 +216,7 @@ navbar {
 	z-index: 5;
 	position: fixed;
 }
-.navbar-custom a{
+.navbar a{
     color: #1b9ec1;
 }
 
