@@ -219,10 +219,11 @@ navbar {
 	z-index: 5;
 	position: fixed;
 }
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #CC3333;
+}
 
-.navbar-default .navbar-nav > li > a {
-   color: white; /*Change active text color here*/
-    }
 
 navbar img {
 	width: 38px;
