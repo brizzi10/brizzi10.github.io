@@ -102,9 +102,6 @@ body {
 	position: relative;
 }
 
-.blue{
-	color: #1b9ec1;
-}
 
 .quote {
 	font-size: 1.692em;
@@ -220,8 +217,7 @@ navbar {
 	position: fixed;
 }
 .navbar-custom {
-    color: #FFFFFF;
-    background-color: #CC3333;
+    color: #1b9ec1;
 }
 
 
