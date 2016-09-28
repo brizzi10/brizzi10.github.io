@@ -102,6 +102,10 @@ body {
 	position: relative;
 }
 
+.blue{
+	color: #1b9ec1;
+}
+
 .quote {
 	font-size: 1.692em;
 	font-weight: 200;
