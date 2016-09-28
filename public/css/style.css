@@ -220,10 +220,9 @@ navbar {
 	position: fixed;
 }
 
-.navbar-nav > li > a:link
-{
-color:#1b9ec1;
-}
+.navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
 
 navbar img {
 	width: 38px;
